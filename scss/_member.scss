@@ -1,0 +1,14 @@
+.hoverBorder{
+    display: inline;
+    &:hover, &:focus{
+        border-bottom: 2px solid $primary;
+    }
+}
+
+.titleLine{
+    border-bottom: 1px solid #818A91;
+}
+
+.smallColor{
+    color: #A5A5A5;
+}

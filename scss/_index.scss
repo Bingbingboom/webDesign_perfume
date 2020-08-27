@@ -1,0 +1,35 @@
+.bg-banner{
+    background-image: url("../img/photo-1588159343745-445ae0b16383.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 870px;
+    @media (max-width: 768px) {
+        height: 480px;
+    }
+}
+.ahover{
+    &:hover{
+        background: $light;
+    }
+}
+.bg-footer{
+    background-image: url("../img/photo-1532413992378-f169ac26fff0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 600px;
+}
+.soldoutPositiion{
+    position: absolute; 
+    top: 45%; 
+    left: 35%;
+    @media (min-width: 575px) {
+        left: 20%;
+    }
+    @media (min-width: 768px) {
+        left: 30%;
+    }
+}

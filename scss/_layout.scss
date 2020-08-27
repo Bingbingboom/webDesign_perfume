@@ -1,0 +1,23 @@
+.close{
+    display: none;
+}
+
+.navbarListBorder{
+    border-bottom: 1px solid #FFF;
+}
+
+.cartPos{
+    position: relative;
+}
+.cartNum{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    width: 16px;
+    height: 16px;
+    font-size: 8px;   
+    border: 1px solid $primary;
+    background: $primary;
+    right: -50%;
+}
